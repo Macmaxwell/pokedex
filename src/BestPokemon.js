@@ -1,13 +1,19 @@
-const BestPokemon = (props) => {
+
+
+  const BestPokemon = (props) => {
+  
+    
     return (
       <div>
-        <p>My favourite Pokemon is Squirtle</p>
+        <p>My favorite Pokemon is {props.name}. Their color is {props.color}</p>
         <ul>
-          {props.abilities.map((ability, index) => (
-            <li key={index}>{ability}</li>
+          {props.abilities.map((ability, i) => (
+            <li key={i}>{ability}</li>
           ))}
         </ul>
+        
       </div>
-  )}
+    )
+  }
   
-  export default BestPokemon;
+  export default BestPokemon 
