@@ -1,15 +1,18 @@
-
-  
-  import { useState } from 'react'
+ import { useState } from 'react'
 
 const pokemonNames = [
   "Dragonair", 
+  "Mew",
   "Dragonite", 
   "Steelix", 
-  "Solrock", 
+  "Gengar",
+  "Solrock",
+  "Pichu" ,
   "Regirock", 
   "Regice", 
   "Registeel",
+  "Rhydon",
+  
 ]
 
 
@@ -44,3 +47,4 @@ const CaughtPokemon = (props) => {
 
 
 export default CaughtPokemon
+
